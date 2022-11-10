@@ -18,11 +18,10 @@ export default function Header() {
           <span className={css.subtitle}>{subtitle.toLocaleLowerCase()}</span>
         </div>
       </div>
-      <div className={css.cart}>
-        <button>
-          
-        </button>
-      </div>
+      <button className={css.button}>
+        <span className={css.price}>520 ₽</span>
+        <span className={css.count}>5</span>
+      </button>
     </header>
   );
 }
