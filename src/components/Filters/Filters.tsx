@@ -8,7 +8,12 @@ export default function Filters() {
         <li className={css.item}>Мясные</li>
         <li className={css.item}>Вегетарианская</li>
       </ul>
-      <div className={css.sort}></div>
+      <span className={css.sort}>Сортировка по:<span>популярности</span></span>
+      <ul className={css.modal}>
+        <li className={css.checked}>по популярности</li>
+        <li>по цене</li>
+        <li>по алфавиту</li>
+      </ul>
     </div>
   );
 }
