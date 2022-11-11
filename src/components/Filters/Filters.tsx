@@ -10,9 +10,9 @@ export default function Filters() {
       </ul>
       <span className={css.sort}>Сортировка по:<span>популярности</span></span>
       <ul className={css.modal}>
-        <li className={css.checked}>по популярности</li>
-        <li>по цене</li>
-        <li>по алфавиту</li>
+        <li className={css.checked}>популярности</li>
+        <li>цене</li>
+        <li>алфавиту</li>
       </ul>
     </div>
   );

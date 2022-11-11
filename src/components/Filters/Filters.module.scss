@@ -43,13 +43,14 @@
     font-weight: 600;
     position: relative;
 
-    &::before {
-      content: '▶';
-      position: absolute;
-      width: 16px;
-      height: 16px;
-      transform: translate(-20px, 1px) rotate(90deg);
-    }
+    // CHECK ME
+    // &::before {
+    //   content: '▶';
+    //   position: absolute;
+    //   width: 16px;
+    //   height: 16px;
+    //   transform: translate(-20px, 1px) rotate(90deg);
+    // }
 
     span {
       cursor: pointer;
