@@ -14,12 +14,18 @@ export default function PizzaItem() {
       <h2>Чизбургер-пицца</h2>
       <div className={css.properties}>
         <ul className={css.thickness}>
-          <li>тонкое</li>
+          <li className={css.active}>тонкое</li>
           <li>традиционное</li>
         </ul>
         <ul className={css.size}>
-
+          <li className={css.active}>26 см.</li>
+          <li>30 см.</li>
+          <li>40 см.</li>
         </ul>
+      </div>
+      <div className={css.price}>
+        <h3>от 395 ₽</h3>
+        <button className={css.buy}>Добавить</button>
       </div>
     </li>
   );
